@@ -1,0 +1,31 @@
+{
+  "name": "elkit",
+  "version": "1.0.0",
+  "description": "A personal starter toolkit for Node.js development",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ochumenno66/package_elkit.git"
+  },
+  "type": "module",
+  "keywords": [
+    "package",
+    "nodejs",
+    "module"
+  ],
+  "author": {
+    "name": "Alena Elhel",
+    "email": "alenka.elhel@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.36.0",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  }
+}
